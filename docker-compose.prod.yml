@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
 
-  cp-client-web:
+  cp-client-app:
     environment:
       - NODE_ENV=production
     command: npm run build-prod

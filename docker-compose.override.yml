@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
 
-  cp-client-web:
+  cp-client-app:
     environment:
       - NODE_ENV=development
     ports:
@@ -10,6 +10,3 @@ services:
     command: npm start
     volumes:
        - ./src:/usr/src/app/src
-
-volumes:
-  mongodata:
